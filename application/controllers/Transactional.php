@@ -23,4 +23,20 @@ class Transactional extends CI_Controller{
 
 
 
+ public function sale_invoice_receipt(){
+   $this->load->view('Admin/sale_invoice_receipt');
+ }
+ public function sale_invoice_print(){
+  $this->load->view('Admin/sale_invoice_print');
+ }
+
+ public function delivery_challan_receipt(){
+   $this->load->view('Admin/delivery_challan_receipt');
+ }
+ public function delivery_challan_print(){
+  $this->load->view('Admin/delivery_challan_print');
+ }
+
+
+
 }

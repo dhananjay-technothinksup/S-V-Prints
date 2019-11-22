@@ -10,7 +10,7 @@
   <div class="sidebar">
     <!-- Sidebar user panel (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-      
+
       <div class="info">
         <a href="#" class="d-block">Admin</a>
       </div>
@@ -107,6 +107,23 @@
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                   Sale Bill List
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="<?php echo base_url(); ?>Transactional/sale_invoice_receipt" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>
+                  Sale Bill print
+                    </p>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="<?php echo base_url(); ?>Transactional/delivery_challan_receipt" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>
+                  D C  print
                     </p>
                   </a>
                 </li>
